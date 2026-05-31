@@ -1,5 +1,5 @@
-import aboutMeOne from '../assets/aboutMeImg/aboutme_1.png'
-import aboutMeTwo from '../assets/aboutMeImg/aboutme_2.png'
+import aboutMeOne from "../assets/aboutMeImg/aboutme_1.png";
+import aboutMeTwo from "../assets/aboutMeImg/aboutme_2.png";
 import aboutMeThree from "../assets/aboutMeImg/aboutme_3.png";
 const AboutPage = () => {
   return (
@@ -175,7 +175,7 @@ const AboutPage = () => {
         </div>
         <div className="flex gap-4">
           <a
-            href="/cv.pdf"
+            href={`${import.meta.env.BASE_URL}cv.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 border rounded-lg"
@@ -184,7 +184,7 @@ const AboutPage = () => {
           </a>
 
           <a
-            href="/cv.pdf"
+            href={`${import.meta.env.BASE_URL}cv.pdf`}
             download
             className="px-4 py-2 bg-black text-white rounded-lg"
           >
