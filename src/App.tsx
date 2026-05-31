@@ -6,30 +6,35 @@ import ContactPage from "./pages/ContactPage";
 import ProjectPage from "./pages/ProjectPage";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <LayoutPage />,
+        children: [
+          {
+            path: "/",
+            element: <HomePage />,
+          },
+          {
+            path: "/about",
+            element: <AboutPage />,
+          },
+          {
+            path: "/contact",
+            element: <ContactPage />,
+          },
+          {
+            path: "/project",
+            element: <ProjectPage />,
+          },
+        ],
+      },
+    ],
     {
-      path: "/",
-      element: <LayoutPage />,
-      children: [
-        {
-          path: "/",
-          element: <HomePage />,
-        },
-        {
-          path: "/about",
-          element: <AboutPage />,
-        },
-        {
-          path: "/contact",
-          element: <ContactPage />,
-        },
-        {
-          path: "/project",
-          element: <ProjectPage />,
-        },
-      ],
+      basename: "/Portfolio",
     },
-  ]);
+  );
 
   return <RouterProvider router={router} />;
 }
