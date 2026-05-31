@@ -20,11 +20,11 @@ const ProjectPage = () => {
             Digital Complaint & Feedback Management System
           </a>
         </h2>
-        <p className="pl-10 px-5 mb-3 font-semibold text-md">
+        <p className="pl-10 px-5 mb-3 font-semibold text-md text-justify">
           A structured platform designed for users to submit complaints and
           feedback, with administrative control for resolution tracking.
         </p>
-        <ul className="pl-18 gap-3 md:w-6/7">
+        <ul className="pl-18 gap-y-3 md:w-6/7 text-justify">
           <li>
             <b>*Tech Stack: </b>React, Node.js, Express, MongoDB
           </li>
@@ -50,18 +50,20 @@ const ProjectPage = () => {
       <div className="lg:w-2/3 flex flex-col bg-cyan-50 rounded-md shadow-md p-5">
         <h2 className="font-serif text-xl font-semibold mb-3">
           🚗{" "}
-          <a href="http://car-price-prediction-1-1er4.onrender.com/"
+          <a
+            href="http://car-price-prediction-1-1er4.onrender.com/"
             target="_blank"
             rel="noopener noreferrer"
-          className="underline text-cyan-800 hover:text-cyan-600">
+            className="underline text-cyan-800 hover:text-cyan-600"
+          >
             Car Price Prediction System
           </a>
         </h2>
-        <p className="pl-10 px-5 mb-3 font-semibold text-md">
+        <p className="pl-10 px-5 mb-3 font-semibold text-md text-justify">
           A machine learning-based application that predicts vehicle prices
           based on input features.
         </p>
-        <ul className="pl-18 gap-3 md:w-6/7">
+        <ul className="pl-18 gap-3 md:w-6/7 text-justify">
           <li>
             <b>*Tech Stack: </b>Python, Pandas, NumPy, Scikit-learn
           </li>
@@ -88,11 +90,11 @@ const ProjectPage = () => {
         <h2 className="font-serif text-xl font-semibold mb-3">
           💬 Real-Time Chat Application
         </h2>
-        <p className="pl-10 px-5 mb-3 font-semibold text-md">
+        <p className="pl-10 px-5 mb-3 font-semibold text-md text-justify">
           A full-stack real-time messaging platform that enables seamless
           communication between users.
         </p>
-        <ul className="pl-18 gap-3 md:w-6/7">
+        <ul className="pl-18 gap-3 md:w-6/7 text-justify">
           <li>
             <b>*Tech Stack: </b>MERN Stack, Socket.io
           </li>
@@ -119,11 +121,11 @@ const ProjectPage = () => {
         <h2 className="font-serif text-xl font-semibold mb-3">
           📝 Automated Exam Paper Generator
         </h2>
-        <p className="pl-10 px-5 mb-3 font-semibold text-md">
+        <p className="pl-10 px-5 mb-3 font-semibold text-md text-justify">
           A system that automates the generation of exam papers from a
           structured question bank.
         </p>
-        <ul className="pl-18 gap-3 md:w-6/7">
+        <ul className="pl-18 gap-3 md:w-6/7 text-justify">
           <li>
             <b>*Tech Stack: </b>React, Node.js, Express, MongoDB
           </li>
@@ -150,10 +152,10 @@ const ProjectPage = () => {
         <h2 className="font-serif text-xl font-semibold mb-3">
           🚀 Overall Summary
         </h2>
-        <p className="pl-10 px-5 mb-3 font-semibold text-md">
+        <p className="pl-10 px-5 mb-3 font-semibold text-md text-justify">
           Through these projects, I have developed hands-on experience in:
         </p>
-        <ul className="pl-18 gap-3 md:w-6/7">
+        <ul className="pl-18 gap-3 md:w-6/7 text-justify">
           <li>
             <b>*</b>Full-stack web development using MERN stack
           </li>

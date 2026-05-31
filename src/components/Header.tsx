@@ -19,7 +19,7 @@ const Header = () => {
           <img src={logo} alt="MyLogo" className="h-15" />
           <h2 className="pt-4 text-4xl ">Portfolio</h2>
         </div>
-        <div className="flex flex-wrap  gap-5 text-xl p-1">
+        <div className="flex flex-wrap  gap-4 text-xl p-1">
           <NavLink to="/" className={isActiveStyle}>
             Home
           </NavLink>
