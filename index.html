@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <script type="text/javascript">
+      (function() {
+        if (window.location.pathname.includes('?p=')) {
+          const path = '/' + window.location.search.slice(3).replace(/~and~/g, '&');
+          window.history.replaceState(null, null, path);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
