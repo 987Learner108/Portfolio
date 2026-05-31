@@ -16,7 +16,7 @@ const Header = () => {
     <header className="min-w-full text-amber-100 font-serif bg-[#d2c089]">
       <div className="flex flex-col md:flex-row justify-between items-center gap-2 px-5">
         <div className="flex flex-cols md:flex-row">
-          <img src={logo} alt="MyLogo" className="h-15" />
+          <img src={logo} alt="MyLogo" loading="lazy" className="h-15" />
           <h2 className="pt-4 text-4xl ">Portfolio</h2>
         </div>
         <div className="flex flex-wrap  gap-4 text-xl p-1">

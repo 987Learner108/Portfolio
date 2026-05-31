@@ -8,8 +8,13 @@ type objType = {
 const NavigationCard = ({ currNav }:objType) => {
     return (
       <li>
-            <NavLink to={currNav.link}>
-          <img src={currNav.img} alt="currNav.name" className= "h-40 w-60 object-cover shadow-xl rounded-md" />
+        <NavLink to={currNav.link}>
+          <img
+            src={currNav.img}
+            alt="currNav.name"
+            loading="lazy"
+            className="h-40 w-60 object-cover shadow-xl rounded-md"
+          />
         </NavLink>
       </li>
     );

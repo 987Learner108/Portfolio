@@ -75,6 +75,7 @@ const ContactPage = () => {
           <img
             src={ContactImg}
             alt="Contact Me"
+            loading="lazy"
             className="w-full h-auto rounded-lg"
           />
         </div>

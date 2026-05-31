@@ -28,6 +28,7 @@ const AboutPage = () => {
           <img
             src={aboutMeOne}
             alt="AImage"
+            loading="lazy"
             className="h-74 w-74 object-cover rounded-full"
           />
         </div>
@@ -39,6 +40,7 @@ const AboutPage = () => {
           <img
             src={aboutMeTwo}
             alt="AImage"
+            loading="lazy"
             className="h-130 w-74  object-cover rounded-4xl"
           />
         </div>
@@ -130,6 +132,7 @@ const AboutPage = () => {
           <img
             src={aboutMeThree}
             alt="AImage"
+            loading="lazy"
             className="h-100 w-74 object-cover rounded-3xl"
           />
         </div>

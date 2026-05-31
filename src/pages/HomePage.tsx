@@ -74,6 +74,7 @@ const HomePage = () => {
           <img
             src={ME}
             alt="MyPic"
+            loading="lazy"
             className="rounded-full h-72 w-72 object-cover "
           />
         </div>
